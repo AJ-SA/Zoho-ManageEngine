@@ -19,4 +19,4 @@ This has been identified and fixed on 23-Aug-2018. To apply this fix, follow the
 
 #### Exploit:
 
-In most ManageEngine windows that runs as system, there is a comment "Powered by Managed Engine Desktop Central" and it has a logo. And by clicking on the logo, it will open the link in a web browser which then runs as SYSTEM as well. To furthar abuse this, you can open a CMD.exe or PowerShell.exe from the browser. 
+In most ManageEngine windows that runs as system, you can also get a window running as system by running this command: `C:\Program Files (x86)\DesktopCentral_Agent\bin\dcagenttrayicon.exe" -ssp`. When getting the window, there is a comment "Powered by Managed Engine Desktop Central" and it has ManageEngine logo. By clicking on the logo, it will open the link in a web browser which then runs as SYSTEM as well. To furthar abuse this, you can open a CMD.exe or PowerShell.exe from the browser.
